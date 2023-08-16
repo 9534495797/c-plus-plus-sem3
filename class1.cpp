@@ -1,5 +1,5 @@
-//#include<iostream>
-//using namespace std;
+#include<iostream>
+using namespace std;
 //class abc{
 //	private:
 //		int rollno;
@@ -21,25 +21,34 @@
 
 
 //outside the class
-//class abc{
-//	private:
-//		int roll;
-//		char name[20];
-//		public:
-//			void getdata();
-//			void display();
-//};
-//void abc::getdata(){
-//	cout<<"name= ";
-//	cin>>name;
-//	cout<<"roll=";
-//	cin>>roll;
-//}
-//void abc::display(){
-//	cout<<"name= "<<name;
-//	cout<<"roll = "<<roll;
-//}
+class abc{
+	private:
+		int roll;
+		char name[20];
+		public:
+			void getdata(){
+				cout<<"name= ";
+	cin>>name;
+	cout<<"roll=";
+	cin>>roll;
+			}
+			void display(){
+				cout<<"name= "<<name<<endl;
+	cout<<"roll = "<<roll<<endl;
+			}
+};
 
+int main()
+{
+abc x;
+//cout<<"name="<<endl;
+x.getdata();
+x.display();
+abc y;
+y.getdata();
+y.display()
+;
+}
 //these both will give error b/c incomplete
 
 //#include<iostream>
