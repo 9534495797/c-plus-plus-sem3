@@ -10,6 +10,19 @@ using namespace std;
 //}
 //traverse
 //int main(){
+//	int a[500],n,i;
+//	cout<<"size of array: ";
+//	cin>>n;
+//	cout<<"write elements of array: ";
+//	for(i=0;i<n;i++){
+//		cin>>a[i];
+//	}
+//	for(i=0;i<n;i++){
+//		cout<<a[i]<<endl;;;;;;;;;
+//	}
+//	
+//}
+//int main(){
 //	int a[5],i;
 //	for(i=0;i<5;i++){
 //		cin>>a[i];
@@ -22,16 +35,16 @@ using namespace std;
 //}
 
 
-int main(){
-	int n[10];
-	for(int i=0;i<10;i++){
-		n[i]=0;
-	}
-	cout<<"elememt"<<"\tvalue"<<endl;
-	for(int i=0;i<10;i++){
-		cout<<i<<"\t"<<n[i];
-	}
-}
+//int main(){
+//	int n[10];
+//	for(int i=0;i<10;i++){
+//		n[i]=0;
+//	}
+//	cout<<"elememt"<<"\tvalue"<<endl;
+//	for(int i=0;i<10;i++){
+//		cout<<i<<"\t"<<n[i];
+//	}
+//}
 
 
 //insert operationm
@@ -114,3 +127,33 @@ int main(){
 //}
 // 
 
+
+
+//largest element of array
+
+//int main(){
+//	int arr[5]={2,1,3,5,6};
+//	int largest=arr[0];
+//	for(int i=1;i<5;i++){
+//		if(arr[i]>largest){
+//			largest=arr[i];
+//		}
+//		
+//	}
+//	cout<<largest;
+//}
+
+
+//smallest
+
+//int main(){
+//	int arr[5]={2,1,3,5,6};
+//	int largest=arr[0];
+//	for(int i=1;i<5;i++){
+//		if(arr[i]<largest){
+//			largest=arr[i];
+//		}
+//		
+//	}
+//	cout<<largest;
+//}
